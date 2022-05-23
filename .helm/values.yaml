@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: registry.gitlab.com/prolift_group/prolift-admin
+  tag: latest
+  pullPolicy: IfNotPresent
+
+nameOverride: ""
+fullnameOverride: ""
